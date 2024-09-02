@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-menu,
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  padding: 20px 200px;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.header-link {
+  color: #f9faf8;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.header-one {
+  margin-left: auto;
+}
+
+.hero {
+  justify-content: space-between;
+}
+
+.hero-left {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  width: 400;
+  height: 200;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-sub {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  border: 0px;
+  padding: 5px 20px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.info-header {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+}
+
+.grid-item {
+  width: 150px;
+  margin: 20px;
+}
+
+.grid-image img {
+  width: 150px;
+  height: 100px;
+}
+
+.quote-container {
+  background-color: #efe7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 300px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #3882f6;
+  display: flex;
+  margin: 100px 200px;
+  padding: 20px 100px;
+}
+
+.footer-main {
+  color: #f9faf8;
+  font-weight: 900;
+}
+.footer-secondary {
+  color: #e5e7eb;
+}
+
+.footer-left {
+  margin: 20px;
+}
+
+.footer-right {
+  display: flex;
+  padding-left: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-button {
+  border: 1px solid color=#f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  border: 1px solid color: #f9faf8;
+  padding: 5px 20px;
+}
